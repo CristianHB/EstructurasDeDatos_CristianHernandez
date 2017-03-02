@@ -5,6 +5,7 @@ fecha: 22/02/2017 primer clase, donde creamos objeto
 package estructurasdedatos;
 
 //importamos el paquete para poder acceder a el
+import estructuradedatos.estructuravector.Vector;
 import estructurasdedatos.estructuraobjeto.Persona;
 
 /**
@@ -19,7 +20,7 @@ public class EstructurasDeDatos {
     public static void main(String[] args) {
        
         
-        Persona juan=new Persona();
+      /*  Persona juan=new Persona();
         juan.setNombre("juan hernandez");
         juan.setDireccion("villa del campo");
         juan.setTelefono("3128032834");
@@ -27,7 +28,34 @@ public class EstructurasDeDatos {
         System.out.println("nombre: " + juan.getNombre() +
                            "\ncedula: " + juan.getCedula() +
                            "\ndirección: " + juan.getDireccion()+
-                           "\ntelefono: " + juan.getTelefono());
+                           "\ntelefono: " + juan.getTelefono());*/
+        
+      Vector vec=new Vector();
+      vec.crearVector(20);
+      vec.crearVector(20);
+      vec.insertarDato("hola", 2);
+      vec.listarVector();
+      vec.buscarDato("hola");
+      
+      
+     
+      
+      
+      
+        
+        
     }
+    
+    
+    
+    
+   
+    
+    
+   
+    
+   
+
+    
     
 }
